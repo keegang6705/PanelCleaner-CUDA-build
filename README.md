@@ -1,4 +1,5 @@
-quick instruction  
+quick instruction 
+use python 3.11 
 create venv name ".venv-cuda"  
 pip install -r requirements.txt   
 run build-pyinstaller-cuda.bat  
