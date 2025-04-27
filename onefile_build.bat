@@ -1,6 +1,8 @@
+
+
 pyinstaller pcleaner/main.py --paths 'venv-cuda/Lib/site-packages' ^
-    --onefile --noconfirm --clean --workpath=build --distpath=dist_exe_cuda --windowed ^
-    --name="PanelCleaner.exe" --icon=icons\logo-big.png ^
+    --onefile --noconfirm --clean --workpath=build --distpath=dist_exe --windowed ^
+    --name="PanelCleaner.exe" --icon=icons\logo.ico ^
     --copy-metadata filelock ^
     --copy-metadata huggingface-hub ^
     --copy-metadata numpy ^
