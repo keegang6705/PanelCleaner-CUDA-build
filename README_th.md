@@ -44,4 +44,4 @@
 
 ## ทางเลือก: ดาวน์โหลดเวอร์ชันที่สร้างเสร็จแล้ว
 - สามารถดาวน์โหลดไฟล์ build สำเร็จรูปได้ที่:  
-  [Download Pre-build](https://drive.google.com/file/d/1QwjzloMio5bGvRP8X5tkezPGgbu5D6MO/view?usp=sharing)
+  [Download Pre-build](https://drive.google.com/file/d/1U9QG9j-FgK2jD4YCGqGq0mYsZw_EeeCt/view?usp=sharing)
