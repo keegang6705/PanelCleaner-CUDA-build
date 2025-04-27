@@ -44,4 +44,4 @@
 
 ## Alternative: Download Pre-built Version
 - You can download the pre-built version here:  
-  [Download Pre-build](https://drive.google.com/file/d/1QwjzloMio5bGvRP8X5tkezPGgbu5D6MO/view?usp=sharing)
+  [Download Pre-build](https://drive.google.com/file/d/1U9QG9j-FgK2jD4YCGqGq0mYsZw_EeeCt/view?usp=sharing)
