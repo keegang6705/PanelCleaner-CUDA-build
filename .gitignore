@@ -5,6 +5,7 @@ __pycache__/
 
 output/**
 dist_exe/**
+dist_exe_dir/**
 *.zip
 *.exe
 profile.html
