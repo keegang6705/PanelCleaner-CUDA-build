@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr_FR" sourcelanguage="en_US">
+<TS version="2.1" language="zh_CN" sourcelanguage="en_US">
   <context>
     <name/>
     <message>
@@ -17,22 +17,22 @@
     <message>
       <location filename="../pcleaner/profile_cli.py" line="106"/>
       <source>Profile {profile_name} created.</source>
-      <translation>Profil {profile_name} créé.</translation>
+      <translation type="unfinished">Profile {profile_name} created.</translation>
     </message>
     <message>
       <location filename="../pcleaner/profile_cli.py" line="238"/>
       <source>Profile name cannot be empty.</source>
-      <translation>Le nom du profil ne peut pas être vide.</translation>
+      <translation type="unfinished">Profile name cannot be empty.</translation>
     </message>
     <message>
       <location filename="../pcleaner/profile_cli.py" line="240"/>
       <source>Profile name already in use.</source>
-      <translation>Le nom du profil est déjà utilisé.</translation>
+      <translation type="unfinished">Profile name already in use.</translation>
     </message>
     <message>
       <location filename="../pcleaner/profile_cli.py" line="242"/>
       <source>Profile name is reserved.</source>
-      <translation>Le nom du profil est réservé.</translation>
+      <translation type="unfinished">Profile name is reserved.</translation>
     </message>
     <message>
       <location filename="../pcleaner/gui/image_file.py" line="360"/>
@@ -40,49 +40,49 @@
       <location filename="../pcleaner/gui/image_file.py" line="372"/>
       <location filename="../pcleaner/gui/image_file.py" line="385"/>
       <source>Unknown</source>
-      <translation>Inconnu</translation>
+      <translation type="unfinished">Unknown</translation>
     </message>
     <message>
       <location filename="../pcleaner/gui/image_file.py" line="374"/>
       <source>RGB</source>
       <comment>Color mode</comment>
-      <translation>RGB</translation>
+      <translation type="unfinished">RGB</translation>
     </message>
     <message>
       <location filename="../pcleaner/gui/image_file.py" line="376"/>
       <source>CMYK</source>
       <comment>Color mode</comment>
-      <translation>CMYK</translation>
+      <translation type="unfinished">CMYK</translation>
     </message>
     <message>
       <location filename="../pcleaner/gui/image_file.py" line="378"/>
       <source>Grayscale</source>
       <comment>Color mode</comment>
-      <translation>Niveaux de gris</translation>
+      <translation type="unfinished">Grayscale</translation>
     </message>
     <message>
       <location filename="../pcleaner/gui/image_file.py" line="380"/>
       <source>1-bit</source>
       <comment>Color mode</comment>
-      <translation>1-bit</translation>
+      <translation type="unfinished">1-bit</translation>
     </message>
     <message>
       <location filename="../pcleaner/gui/image_file.py" line="382"/>
       <source>Palette</source>
       <comment>Color mode</comment>
-      <translation>Palette</translation>
+      <translation type="unfinished">Palette</translation>
     </message>
     <message>
       <location filename="../pcleaner/gui/model_downloader_driver.py" line="379"/>
       <source>Error downloading file from url: {url}</source>
-      <translation>Erreur lors du téléchargement du fichier à partir de l'URL : {url}</translation>
+      <translation type="unfinished">Error downloading file from url: {url}</translation>
     </message>
     <message>
       <location filename="../pcleaner/gui/model_downloader_driver.py" line="433"/>
       <source>Error downloading file from url: {url}
 Failed to save the file to {save_path}</source>
-      <translation>Erreur lors du téléchargement du fichier à partir de l'URL : {url}
-Échec de l'enregistrement du fichier dans {save_path}</translation>
+      <translation type="unfinished">Error downloading file from url: {url}
+Failed to save the file to {save_path}</translation>
     </message>
     <message>
       <location filename="../pcleaner/gui/model_downloader_driver.py" line="442"/>
@@ -507,7 +507,6 @@ Pages with failures / total:
       <comment>layered export</comment>
       <translation type="unfinished">
         <numerusform>Clean mask</numerusform>
-        <numerusform>Clean mask</numerusform>
       </translation>
     </message>
     <message numerus="yes">
@@ -515,7 +514,6 @@ Pages with failures / total:
       <source>Denoised mask</source>
       <comment>layered export</comment>
       <translation type="unfinished">
-        <numerusform>Denoised mask</numerusform>
         <numerusform>Denoised mask</numerusform>
       </translation>
     </message>
@@ -525,7 +523,6 @@ Pages with failures / total:
       <comment>layered export</comment>
       <translation type="unfinished">
         <numerusform>Inpainting mask</numerusform>
-        <numerusform>Inpainting mask</numerusform>
       </translation>
     </message>
     <message numerus="yes">
@@ -534,7 +531,6 @@ Pages with failures / total:
       <comment>layered export</comment>
       <translation type="unfinished">
         <numerusform>Isolated text</numerusform>
-        <numerusform>Isolated text</numerusform>
       </translation>
     </message>
     <message numerus="yes">
@@ -542,7 +538,6 @@ Pages with failures / total:
       <source>Page</source>
       <comment>layered export</comment>
       <translation type="unfinished">
-        <numerusform>Page</numerusform>
         <numerusform>Page</numerusform>
       </translation>
     </message>
