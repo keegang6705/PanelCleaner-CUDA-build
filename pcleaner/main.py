@@ -90,6 +90,15 @@ Options:
     -v --version                    Show the version and exit.
     -h --help                       Show this screen.
 
+Environment Variables:
+    XDG_CONFIG_HOME                 Determines where the config file, profiles, and temporary window state is stored.
+    XDG_CACHE_HOME                  Determines where the cache directory is located for temporary files, logs, and
+                                    downloaded models.
+    GUARDED_CLEANER_CACHE           Set to an absolute path to override the default cache directory for temporary mask
+                                    and output files. Models are still stored in the normal cache directory.
+                                    This can be used to run multiple instances of Panel Cleaner with different cache
+                                    directories.
+
 Examples:
     pcleaner clean myfolder               This will clean all images in the folder, saving the output to
                                     a folder inside myfolder called cleaned.
@@ -729,13 +738,14 @@ def run_cleaner(
         output_dir = common_parent / output_dir
 
     if profile.general.layered_export == LayeredExport.PSD_BULK:
-        print(f"Bulk exporting to {output_dir}...")
-        ie.bundle_psd(
+        print(f"Merging PSDs for bulk export...")
+        bulk_path = ie.bundle_psd(
             output_dir,
             cache_dir,
             [export_target.original_path for export_target in export_targets],
             [export_target.uuid for export_target in export_targets],
         )
+        print(f"Saved bulk PSD to {bulk_path}")
 
     print("\nDone!")
 

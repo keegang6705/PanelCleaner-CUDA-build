@@ -1,4 +1,5 @@
 import re
+import os
 import sys
 import shutil
 import base64
@@ -1170,8 +1171,21 @@ class Config:
     def get_cleaner_cache_dir(self) -> Path:
         """
         Get the cache directory for cleaner models.
+        Can be overridden with GUARDED_CLEANER_CACHE.
         """
-        path = self.get_cache_dir() / "cleaner"
+        guarded_path = os.getenv("GUARDED_CLEANER_CACHE")
+
+        if guarded_path and os.path.isabs(guarded_path):
+            path = Path(guarded_path) / "cleaner"
+        else:
+            path = self.get_cache_dir() / "cleaner"
+            # Warn about non-absolute path.
+            if guarded_path:
+                logger.error(
+                    f"GUARDED_CLEANER_CACHE is set to a non-absolute path: {guarded_path}. "
+                    f"Using default cache directory instead."
+                )
+
         path.mkdir(parents=True, exist_ok=True)
         return path
 
